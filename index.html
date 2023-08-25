@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - YouTube</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <header class="head_container">
+            <div class="menu_logo item">
+            <a href="#"><img src="./src/img/menu.png" alt="menu do Youtube"/></a>
+            <a href="#"><img src="./src/img/youtube 1.png" alt="Logo do Youtube"/><sup>BR</sup></a>
+            </div>
+
+            <div class="pesquisa item">
+                <form action="#">
+                    <input type="search" name="pesquisar" id="input_search" placeholder="Pesquisa"/>
+                    <button><img src="./src/img/search.png" alt="Lupa de pesquisa"></button>
+                </form>
+            <a href="#"><svg focusable="false"><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg></a>
+            </div>
+
+            <div class="perfil item">
+                <a href="#"><img src="./src/img/video.png" alt="ícone para inserir vídeos no canal"></a>
+                <a href="#"><img src="./src/img/bell.png" alt="ícone de notificações"></a>
+                <a href="#"><img src="./src/img/avatar-filipe.png" alt="Imagem de avatar do usuário"></a>
+            </div>
+        </header>
+
+        <section >
+            <div class="conteudo_video">
+                <iframe width="952" height="537" src="https://www.youtube.com/embed/0IY5TJwAbcQ?si=rPnJfXrVGCO3M1Em" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h3>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h3>
+                <div class="botoes">
+                    <img width="35px" height="35px" src="./src/img/avatar-filipe.png" alt="Canal do Filipe Camargo">
+                    <div class="info_canal">
+                        <h4>Filipe Camargo</h4>
+                        <p>24,2 mil inscritos</p>
+                    </div>
+                    <div>
+                        <p id="btn_subscribe">inscreva-se</p>
+                    </div>
+                    <div class="like">
+                        <img id="gostuei" src="./src/img/thumbs-up.png" alt="botão de gostei">
+                        <p>2 mil</p>
+                    </div>
+                    <div class="deslike">
+                        <img id="nao_gostuei" src="./src/img/thumbs-down.png" alt="botão de 'não gostei'">
+                    </div>
+                    <div class="share">
+                        <img src="./src/img/share-2.png" alt="botão de compartilhar">
+                        <p>Compartilhar</p>
+                    </div>
+                    <div class="download">
+                        <img src="./src/img/download.png" alt="Download">
+                        <p>Download</p>
+                    </div>
+                </div>
+                <div class="infoserver">
+                    <p>28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p>
+                </div>
+                <div class="description">
+                    <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. <br>
+                    Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) <br>
+                    para explorarmos os mistérios do mundo invertido.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

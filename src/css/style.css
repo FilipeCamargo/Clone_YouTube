@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_container{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+
+.menu_logo{
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_logo a{
+    text-decoration: none;
+}
+
+.menu_logo a sup{
+    padding-left: 2px;
+    font-size: 10px;
+    color: black;
+}
+
+.menu_logo img[src*="youtube"]{
+    width: 90px;
+    padding: 5px;
+    margin-left: 32px;
+}
+
+.menu_logo img[src*="menu"]{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+.menu_logo a img[src*="menu"]:hover{
+    background: #9f9b9b5d;
+    border-radius: 50%;
+}
+
+.pesquisa{
+    height: 40px;
+    width: 470px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.pesquisa input{
+    width: 348px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 8px;
+    margin-right: -5px;
+    border: 1px solid black;
+}
+
+.pesquisa button{
+    width: 57px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid black;
+}
+
+.pesquisa button img{
+    width: 11px;
+}
+
+.pesquisa svg{
+    position: absolute;
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    right: 25px;
+    background: #cac7c75d;
+    border-radius: 50%;
+}
+
+.pesquisa svg:hover{
+    background: #9f9b9b5d;
+}
+
+.perfil{
+    display: flex;
+    height: 40px;
+}
+
+.perfil img{
+    width: 30px;
+    margin-right: 24px;
+}
+
+.perfil img[src*="avatar"]{
+    width: 40px;
+}
+
+.conteudo_video{
+    width: 952px;
+    height: 746px;
+    margin: 28px 25px 0 75px;
+}
+
+.conteudo_video iframe{
+    border-radius: 15px;
+}
+
+.conteudo_video h3{
+    margin: 16px 0;
+}
+
+.botoes{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.info_canal{
+    margin: 0px 25px 0px 12px;
+}
+
+.info_canal h4, .info_canal p{
+    margin: 0 10px;
+}
+
+.info_canal p{
+    color: #515151;
+}
+
+#btn_subscribe{
+    box-sizing: border-box;
+    width: 109px;
+    height: 36px;
+    background: black;
+    color: white;
+    padding: 8px 0px 0px 15px;
+    margin: 0px 180px 0px 0px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    background-color: #cdcbcb5d;
+    align-items: center;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 15px 5px 15px 15px;
+    border-right: 1px solid #a5a3a3;
+    border-radius: 30px 0 0 30px;
+}
+
+.like:hover{
+    background: #9c9b9b5d;
+}
+
+#gostuei{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.likes p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.deslike{
+    display: flex;
+    background-color: #cdcbcb5d;
+    align-items: center;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 0px;
+    border-radius: 0 30px 30px 0;
+}
+
+.deslike:hover{
+    background: #9c9b9b5d;
+}
+
+#nao_gostuei{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.share{
+    box-sizing: border-box;
+    display: flex;
+    background: #cdcbcb5d;
+    margin-left: 20px;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.share:hover{
+    background: #9c9b9b5d;
+}
+
+.share img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.download{
+    box-sizing: border-box;
+    display: flex;
+    background: #cdcbcb5d;
+    margin-left: 20px;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.download:hover{
+    background: #9c9b9b5d;
+}
+
+.download img{
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+
+/* alterar temanho de fonte para 62,5% */
